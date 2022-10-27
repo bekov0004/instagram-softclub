@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.contener_left_right{
+    text-decoration: none;
+    display: flex;
+}
+.contener_lefat{
+    overflow: hidden;
+    height: 100vh;
+    width: 18%;
+    border-right: 1px solid;
+}
+.contener_right{
+    overflow: auto;
+
+    width: 82%;
+    height: 100vh;
+}
+.text_decorton{
+    text-decoration: none;
+}
+/*  --------------- navbar left------------- */
+.class_margindg_paddimg{
+      margin: 8px 0px ;
+      padding: 12px;
+}
+.text_padding{
+    padding-left: 16px;
+}
+.main_left{
+  padding: 8px 12px;
+}
+.logo_instagram{
+    padding: 25px 12px 16px;
+    margin-bottom: 19px;
+}
+.Home_icon a{
+   text-decoration: none;
+}
+.ff{
+    padding: 0px 0px 0px 16px;
+}
+/* ------------------contener_right------------ */
+.softclub_tj{
+    display: flex;
+}
+.left_profil{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 291px;
+    height: 304px;
+    margin-right: 30px;
+
+}
+
+.p_softclub{
+    font-size: 28px;
+}
+.but_size{
+    font-size: 14px;
+    padding: 5px 9px;
+}
+.main_right{
+    width: 85.5%;
+    height: 100vh;
+    margin: auto;
+    padding: 30px 20px 0px;
+}
+.mrg_but{
+    margin-right: 20px;
+}
+.mrg_but2{
+    margin-right: 10px;
+}
+.bck_pod{
+    background-color: rgb(78, 118, 228);
+    border: none;
+    border-radius: 4px;
+}
+/* --------------right_kursi--------- --*/
+.top_podpis{
+    display: flex;
+}
+.top_publik{
+    margin: 30px 0px;
+}
+.istoriy img{
+    border-radius: 50%;
+    width: 90px;
+}
+.istory_centr{
+    display: flex;
+    justify-content: center;
+}
+.istoriy{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+.centr_p{
+    text-align: center;
+}
+
+/*         ---------------- */
+.reels{
+    /* display: flex;
+    justify-content: center; */
+    border-top: 1px solid;
+    padding-top: 20px;
+    margin-top: 70px;
+}
+
+.mrgingtop{
+    margin-top: 30px;
+}
+.mrgingleft{
+   margin-left: 20px;
+}
+
+
+
+
+
+
+
+
+/* ---------------------------------- */
+.cord_flex{
+  display: flex;
+  justify-content: center;
+}
+.cord img{
+    width: 280px;
+    height: 280px;
+
+}
+.cord{
+    margin-right: 30px;
+    width: 280px;
+    height: 280px;
+    position: relative;
+}
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 280px;
+    height: 280px;
+    background-color: rgba(0, 0, 0,0.2);
+    position: absolute;
+    top: 0;
+    z-index: -1;
+}
+.cord:hover .icon{
+    justify-content:space-;
+    z-index: 1;
+}
